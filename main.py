@@ -13,19 +13,18 @@ courses = [
         ]
 
 coursesS1 = [
-        "PHYS310",
-        "PHYS326",
         "MATH302",
         "MATH343",
-        "PHYS311"
+        "PHYS310",
+        "PHYS311",
+        "PHYS326"
         ]
 
 coursesS2 = [
-        "PHYS203",
-        "PHYS206",
-        "MATH202",
-        "MATH240",
-        "MATH365"
+        "PHYS313",
+        "MATH303",
+        "MATH363",
+        "MATH380"
         ]
 
 c_list = UCCourses.process_course_list(coursesS1)
@@ -36,3 +35,5 @@ print("Loaded.")
 print("Visual Representation of Timetable:\n")
 
 UCCourses.timetable_rep(timetable, True)
+
+
